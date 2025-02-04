@@ -1,0 +1,1 @@
+This repository demonstrates a common issue in React Router v6 where unexpected route matching occurs when no catch-all route is specified.  Without a `Route` to handle paths not explicitly defined, unexpected behavior, often rendering of the last specified route, can occur.  This example shows how to resolve this by adding a wildcard route (`/*`).
